@@ -1,16 +1,15 @@
-import Counter from "./Counter.js";
-import Usage from "./pages/Usage.js";
-import "./pages/Usage.css";
-import { useState } from "react";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
+import Food from "./Food.jsx";
+
 function App() {
-  const [state, setState] = useState(false)
-  return (
-    <div className="App">
-      <h1 onClick={() => setState(!state)}>Hello shehin</h1>
-      {state && <Counter />}
-      <Usage/>
-    </div>
-  )
+    return (
+        <>
+            <Header />
+            <Food />
+            <Footer />
+        </>
+    )
 }
 export default App;
 
