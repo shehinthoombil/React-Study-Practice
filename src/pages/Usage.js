@@ -5,6 +5,8 @@ function Usage() {
     const [value, setValue] = useState(0)
     const [color, setColor] = useState('white')
 
+
+    
     return (
         <div className='usage'>
             <div className='usage-items' style={{ backgroundColor: color }}>
