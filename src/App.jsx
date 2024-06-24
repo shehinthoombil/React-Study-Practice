@@ -1,5 +1,7 @@
 import Button from "./Button";
 import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+
 
 function App() {
 
@@ -7,6 +9,7 @@ function App() {
       <>
       <Button/>
       <MyComponent/>
+      <Counter/>
       </> 
    )
 }
