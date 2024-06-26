@@ -1,16 +1,11 @@
-import Button from "./Button";
-import MyComponent from "./MyComponent";
-import Counter from "./Counter";
-import Parent from "./Parent";
-import Child from "./Child";
+import NewComponent from "./NewComponent";
 
 
 function App() {
 
    return ( 
       <>
-      <Parent/>
-      <Child/>
+      <NewComponent/>
       </> 
    )
 }
