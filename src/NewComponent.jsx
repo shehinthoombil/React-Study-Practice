@@ -1,25 +1,23 @@
-import React, { useState } from 'react'
+import React,{useState} from 'react'
 
 function NewComponent() {
-    const [user,setUser] = useState('')
-    const [loggedIn,setLoggedIn] = useState(false)
-    const handleClick = () => {
-      if (!loggedIn) {
-        setUser('welcome user');
-      } else {
-        setUser('');
-      }
-      setLoggedIn(!loggedIn);
-    };
+  const [data,setData] = useState('')
+  
 
-    
+  const handletext = ()=>{
+    setData(data)
+  }
 
   return (
     <div>
-        <p>{user}</p>
-        <button onClick={handleClick} >{loggedIn ? "logout":"login"} </button>
+      <h1>hlo {user}</h1>
+      <input type="text" value={data} />
+      <input type2="text"  value ={da}/>
+
+      <button onClick={handletext}> submit</button>
     </div>
   )
 }
 
 export default NewComponent
+
