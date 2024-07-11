@@ -7,13 +7,14 @@ import React from 'react';
 // import ArrayOfObject from "./ArrayOfObject";
 // import ComponentNew from './ComponentNew';
 // import NewComponent2 from './NewComponent2';
-import ComponentA from './ComponentA';
+// import ComponentA from './ComponentA';
+import NewComponent3 from './NewComponent3';
 
 
 function App() {
     return (
         <>
-         <ComponentA/>
+            <NewComponent3 />
         </>
     );
 }
