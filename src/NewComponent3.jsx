@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 //useRef
 
 function NewComponent3() {
-
+ 
     const inputRef1 = useRef(null)
     const inputRef2 = useRef(null)
     const inputRef3 = useRef(null)
