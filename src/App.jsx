@@ -3,13 +3,13 @@ import React from 'react';
 // import ChildComponent from './ChildComponent';
 // import NewComponent from './NewComponent';
 
-import NewFile from './NewFile';
-
+// import NewFile from './NewFile';
+import Counter from './Counter';
 
 function App() {
     return (
         <>
-       <NewFile/>
+    <Counter/>
         </>
     );
 }
