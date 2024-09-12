@@ -1,9 +1,16 @@
 import React from 'react';
-import Components from './Components';
+import UseContext from './UseContext';
+import {UserContext} from './UseContext';
+
+
+const user = { name: "shehin" }
+
 function App() {
     return (
-        <>      
-        <Components/>
+        <>
+            <UserContext.Provider value={user}>
+                <UseContext />
+            </UserContext.Provider>
         </>
 
     );
