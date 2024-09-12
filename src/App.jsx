@@ -1,18 +1,11 @@
 import React from 'react';
-// import ParentComponent from './ParentComponent';
-// import ChildComponent from './ChildComponent';
-// import NewComponent from './NewComponent';
-// import Counter from './Counter';
-// import NewFile from './NewFile';
-import Counter from './Counter1';
-
-
+import Components from './Components';
 function App() {
     return (
-        <>
-         <Counter />
+        <>      
+        <Components/>
         </>
-       
+
     );
 }
 
